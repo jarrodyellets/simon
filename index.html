@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Russo+One|Kelly+Slab|Raleway'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="gameBoard">
+  
+<!--   Center Section -->
+  <div class="center">
+    <div class="logo"><span>simon<span id="tm">&trade;</span></span>
+    </div>
+    <div class="labels">
+      <span>Start</span>
+      <span>Count</span>
+      <span id="strictLabel">Strict</span>
+    </div>
+    <div class="buttonsDiv">
+      <div class="buttons noClick" id="start"></div>
+      <div id="countDiv"><span id="count">88</span></div>
+      <div class="buttons" id="strict"></div>
+    </div>
+    <div class="switchDiv">
+      <span id="off">Off</span>
+      <label class="switch">
+        <input id="power" type="checkbox">
+        <span class="slider"></span>
+      </label>
+      <span id="on">On</span>
+    </div>
+  </div>
+  
+<!--   Game Pads -->
+  <div class="gamePad greenOff noClick" id="pad0"></div>
+  <div class="gamePad redOff noClick" id="pad1"></div>
+  <div class="gamePad yellowOff noClick" id="pad2"></div>
+  <div class="gamePad blueOff noClick" id="pad3"></div>
+  
+</div>
+<footer>
+  <div id="author">&copy; Jarrod Yellets | 2017</div>
+</footer>
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
